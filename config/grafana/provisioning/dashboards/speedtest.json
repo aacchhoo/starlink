@@ -71,7 +71,7 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "avg(speedtest_download_speed_Bps{user_isp=\"Starlink\"})",
+          "expr": "avg(speedtest_download_speed_Bps{user_isp=\"Space Exploration Technologies Corporation\"})",
           "format": "time_series",
           "instant": false,
           "interval": "",
@@ -82,7 +82,7 @@
         },
         {
           "exemplar": true,
-          "expr": "avg(speedtest_upload_speed_Bps{user_isp=\"Starlink\"})",
+          "expr": "avg(speedtest_upload_speed_Bps{user_isp=\"Space Exploration Technologies Corporation\"})",
           "hide": false,
           "interval": "",
           "legendFormat": "Upload",
@@ -406,7 +406,7 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "avg(speedtest_latency_seconds{user_isp=\"Starlink\"})",
+          "expr": "avg(speedtest_latency_seconds{user_isp=\"Space Exploration Technologies Corporation\"})",
           "interval": "",
           "legendFormat": "Latency",
           "queryType": "randomWalk",
