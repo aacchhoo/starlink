@@ -38,7 +38,7 @@ scrape_configs:
       - targets: [ 'ping-asia.ds.on.epicgames.com' ]
         labels:
           name: 'epicgames_Asia'
-      - targets: [ 'ping-br.ds.on.epicgames.com ]
+      - targets: [ 'ping-br.ds.on.epicgames.com' ]
         labels:
           name: 'epicgames_Brazil'
       - targets: [ 'ping-me.ds.on.epicgames.com' ]
