@@ -23,27 +23,27 @@ scrape_configs:
     params:
       module: [icmp_ipv4]
     static_configs:
-      - targets: [ 'qosping-aws-us-west-1.ol.epicgames.com' ]
+      - targets: [ 'ping-naw.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_us_west'
-      - targets: [ 'qosping-aws-us-east-1.ol.epicgames.com' ]
+          name: 'epicgames_NA-West'
+      - targets: [ 'ping-nae.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_us_east'
-      - targets: [ 'qosping-aws-eu-west-3.ol.epicgames.com' ]
+          name: 'epicgames_NA-East'
+      - targets: [ 'ping-eu.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_eu-west'
-      - targets: [ 'qosping-aws-ap-southeast-2.ol.epicgames.com' ]
+          name: 'epicgames_Europe'
+      - targets: [ 'ping-oce.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_ap-southeast'
-      - targets: [ 'qosping-aws-sa-east-1.ol.epicgames.com' ]
+          name: 'epicgames_Oceania'
+      - targets: [ 'ping-asia.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_sa-east'
-      - targets: [ 'qosping-aws-ap-northeast-1.ol.epicgames.com' ]
+          name: 'epicgames_Asia'
+      - targets: [ 'ping-br.ds.on.epicgames.com ]
         labels:
-          name: 'epicgames_ap-northeast'
-      - targets: [ 'qosping-aws-me-south-1.ol.epicgames.com' ]
+          name: 'epicgames_Brazil'
+      - targets: [ 'ping-me.ds.on.epicgames.com' ]
         labels:
-          name: 'epicgames_me-south'
+          name: 'epicgames_Middle-East'
       - targets: [ '8.8.8.8' ]
         labels:
           name: 'google_a'
